@@ -1,7 +1,11 @@
 {
   "name": "jdp-cv",
   "version": "0.1.0",
-  "private": true,
+  "homepage": "/",
+  "engines": {
+    "node": "16",
+    "npm": "8"
+  },
   "scripts": {
     "clean": "rm -rf node_modules package-lock.json build/*",
     "start": "react-scripts start",
