@@ -1,10 +1,7 @@
 /* eslint-disable no-undef */
 module.exports = {
-  content: [
-    './src/**/*.{html,js,ts,jsx,tsx}',
-    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
-  ],
-  plugins: [require('flowbite/plugin'), require('@tailwindcss/line-clamp')],
+  content: ['./src/**/*.{html,js,ts,jsx,tsx}'],
+  plugins: [require('@tailwindcss/line-clamp')],
   theme: {
     colors: {
       seagull: {
