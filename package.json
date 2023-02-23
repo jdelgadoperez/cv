@@ -8,6 +8,7 @@
   },
   "scripts": {
     "clean": "rm -rf node_modules package-lock.json build/*",
+    "postclean": "npm install",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
